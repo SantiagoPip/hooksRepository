@@ -6,7 +6,7 @@ import { UserContext } from "../../src/09-UseContext/context/UserContext"
 describe('Pruebas en el <HomePage/>', () => { 
     const user = {
         id:1,
-        name:'Tatiana'
+        name:'Santiago'
     }
     
     test('debe de mostrar el componente sin el usuario', () => { 

@@ -18,6 +18,6 @@ describe('Preubas en <LoginPage/>', () => {
         </UserContext.Provider>)
         const button= screen.getByRole('button');//
         fireEvent.click(button);
-        expect(setUserMock).toHaveBeenCalledWith({"id":123,"name":"Tatiana","email":'tatiana@gmail.com'})
+        expect(setUserMock).toHaveBeenCalledWith({"id":123,"name":"Santiago","email":'Santiago@gmail.com'})
       })
  })
