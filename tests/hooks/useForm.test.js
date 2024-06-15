@@ -4,8 +4,8 @@ import { act } from "react-dom/test-utils"
 
 describe('Pruebas en el useForm', () => {
     const initialForm = {
-        name:'Tatiana',
-        email:'tatiana@gmail.com'
+        name:'Santiago',
+        email:'santiago@gmail.com'
     } 
     test('debe de regresar los valores pro defecto', () => { 
         const {result} = renderHook(()=>useForm(initialForm))
